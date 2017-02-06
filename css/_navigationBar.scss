@@ -1,0 +1,33 @@
+.navBar {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0px;
+    background-color: $navBarOrange;
+    color: $whiteColor;
+
+        &:hover {
+            background-color: $navHover;
+        }
+    .freeShipping {
+        background-color: $navBarDarkOrange ;
+        border-radius: 3px;
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .savings {
+        font-size: 13px;
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .leftNavBarSpace {
+        flex: 1;
+    }
+
+    .rightNavBarSpace {
+        flex: 3;
+    }
+    
+}
+

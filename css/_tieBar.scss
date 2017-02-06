@@ -1,0 +1,39 @@
+.tieBar {
+    /*background-color: blue;*/
+        background-color: $backgroundGray;
+
+        .tieBarSide {
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
+    background-color: $backgroundGray;
+    }
+
+.tieTextLink {
+    text-decoration: none;
+
+    .tieImage {
+    margin-right: 30px;
+    flex: 1;
+
+        &:hover {
+        height: 125px;
+        margin-bottom: 25px;
+        }
+
+        &:hover ~ .tieText {
+        color: $buttonHover;
+        }
+
+    }
+
+    .tieText {
+    justify-content: center;
+    margin-right: 30px;
+    color: $blackColor;
+    text-decoration: none;
+    }
+    
+}
+
+}

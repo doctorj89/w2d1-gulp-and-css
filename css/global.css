@@ -1,390 +1,346 @@
 * {
-    box-sizing: border-box;
-    }
+  box-sizing: border-box;
+}
 
 body {
-    background: white;
+  background: white;
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
 .column {
-    flex: 1;
-    margin-right: 10px;
-    font-size: 10px;
-    text-align: center;
-    padding: 10px;
-}
-
-.navBar {
-    width: 100%;
-    margin: 0 0 0 0;
-    padding: 0px;
-    background-color: #F87547;
-    color: white;
-}
-
-.navBar:hover {
-    background-color: dodgerblue;
+  flex: 1;
+  margin-right: 10px;
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
 }
 
 .linkNoDecoration {
-    text-decoration: none;
-    color: lightblue;
+  text-decoration: none;
+  color: lightblue;
 }
 
-/*.navBar:hover ~ .freeShipping {
-    background-color: green;
-}*/
-
-.freeShipping {
-    background-color: #CE5E39 ;
-    border-radius: 3px;
-    margin: 5px;
-    font-size: 13px;
+.navBar {
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0px;
+  background-color: #F87547;
+  color: white;
 }
 
-.savings {
-    font-size: 13px;
-    margin: 5px;
-    font-size: 13px;
+.navBar:hover {
+  background-color: dodgerblue;
 }
 
-.leftNavBarSpace {
-    flex: 1;
+.navBar .freeShipping {
+  background-color: #CE5E39;
+  border-radius: 3px;
+  margin: 5px;
+  font-size: 13px;
 }
 
-.rightNavBarSpace {
-    flex: 3;
+.navBar .savings {
+  font-size: 13px;
+  margin: 5px;
+  font-size: 13px;
+}
+
+.navBar .leftNavBarSpace {
+  flex: 1;
+}
+
+.navBar .rightNavBarSpace {
+  flex: 3;
 }
 
 .linkBar {
-    margin-top: 10px;
-    background-color: white;
+  margin-top: 10px;
+  background-color: white;
 }
 
-.logoImage {
-    background-color: white;
-    margin-right: 30px;
-    padding: 5px;
+.linkBar .logoImage {
+  background-color: white;
+  margin-right: 30px;
+  padding: 5px;
 }
 
-.linksLinkBar {
-    height: 125px;
-    line-height: 110px;
-    font-size: 25px;
-    text-align: center;
-    font-weight: normal;
-    color: black;
+.linkBar .linksLinkBar {
+  height: 125px;
+  line-height: 110px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: normal;
+  color: black;
 }
 
-.linksBarRight {
-    flex: 2;
+.linkBar .linksBarRight {
+  flex: 2;
 }
 
 .signInAndRegister {
-    margin-top: 10px;
-    font-size: 12px;
-    margin-right: 0px;
-    color: gray;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-right: 0px;
+  color: gray;
 }
 
-.signIn {
-    margin-right: 40px;
-    float: right;
+.signInAndRegister .signIn {
+  margin-right: 40px;
+  float: right;
 }
 
-.cartAndSearch {
-    margin-top: 10px;
-    background-color: red;
+.searchAndCartRow .search {
+  background: url(../img/search.png) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 35px;
+  font-size: 12px;
+  float: right;
+  box-shadow: 0 0 0 4px #f4f4f4;
+  margin: 4px;
+  border: 1px solid #d8d8d8;
 }
 
-.signInBlank {
-    flex: 4;
+.searchAndCartRow .cartRow {
+  background: url(../img/cart20.png) no-repeat scroll 5px 5px;
 }
-
-.search {
-        background: url(../img/search.png) no-repeat scroll 7px 7px;
-        padding-left:30px;
-        margin-top: 10px;
-        border-radius: 5px;
-        height: 35px;
-        font-size: 12px;
-        float: right;
-        box-shadow: 0 0 0 4px #f4f4f4;
-        margin: 4px;
-        border: 1px solid #d8d8d8;
-    }
-
-    .cartRow {
-        background: url(../img/cart20.png) no-repeat scroll 5px 5px;
-    }
 
 .dividerImage {
-	height:10px;
-    margin-bottom: -2px;
-	border:none !important;
+  height: 10px;
+  margin-bottom: -2px;
+  border: none !important;
 }
 
 .perforatedDivider {
-    background:url(../img/perforated-bottom@2x.png);
+  background: url(../img/perforated-bottom@2x.png);
 }
 
 .xDivider {
-        background:url(../img/hatch-light@2x.png);
+  background: url(../img/hatch-light@2x.png);
 }
 
 .tieBar {
-    /*background-color: blue;*/
-        background-color: #F4F4F4;
-
+  /*background-color: blue;*/
+  background-color: #f4f4f4;
 }
 
-.tieBarSide {
-    margin: 0px;
-    padding: 0px;
-    flex: 1;
-    background-color: #F4F4F4;
+.tieBar .tieBarSide {
+  margin: 0px;
+  padding: 0px;
+  flex: 1;
+  background-color: #f4f4f4;
 }
 
-.tieBarColumn {
-    margin: 0px;
-    padding: 0px;
-    flex: 1;
+.tieBar .tieTextLink {
+  text-decoration: none;
 }
 
-.tieImage {
-    margin-right: 30px;
-    flex: 1;
+.tieBar .tieTextLink .tieImage {
+  margin-right: 30px;
+  flex: 1;
 }
 
-.tieImage:last-child {
-    margin-right: 0px;
+.tieBar .tieTextLink .tieImage:hover {
+  height: 125px;
+  margin-bottom: 25px;
 }
 
-.lastTie {
-    margin-right: 0px;
+.tieBar .tieTextLink .tieImage:hover ~ .tieText {
+  color: blue;
 }
 
-.tieImage:hover {
-    height: 125px;
-    margin-bottom: 25px;
-}
-
-.tieImage:hover ~ .tieText {
-    color: blue;
-}
-
-/*.tieRow {
-    justify-content: center;
-}*/
-
-.tieTextLink {
-    text-decoration: none;
-}
-
-.tieText {
-    justify-content: center;
-    margin-right: 30px;
-    color: black;
-    text-decoration: none;
-}
-
-.lastTieText {
-    margin: 0;
+.tieBar .tieTextLink .tieText {
+  justify-content: center;
+  margin-right: 30px;
+  color: black;
+  text-decoration: none;
 }
 
 .tieBarText {
-    margin: 0px;
-    padding: 50px;
-    text-align: center;
-    font-size: 50px;
-    background-color: #F4F4F4;
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+  background-color: #f4f4f4;
 }
 
 .otherItems {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
-.otherItem {
-    position: relative;
+.otherItems .otherItem {
+  position: relative;
 }
 
-h2 { 
-   position: absolute; 
-   top: 0px;
-   padding-right: 20px;
-   width: 100%; 
-   color: black;
+.otherItems h2 {
+  position: absolute;
+  top: 0px;
+  padding-right: 20px;
+  width: 100%;
+  color: black;
 }
 
-.otherItemsBar:hover {
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgray;
+.otherItems .otherItemsBar:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
 }
 
-.otherLeftItem {
-    position: relative; 
-    text-align: right;
-    background: white;
-    background-color: white;  
+.otherItems .otherLeftItem {
+  position: relative;
+  text-align: right;
+  background: white;
+  background-color: white;
 }
 
-.otherMiddleItem {
-    position: relative; 
-    text-align: right;
-    margin-left: 25px;
-    margin-right: 25px;
-    background-color: white;
+.otherItems .otherMiddleItem {
+  position: relative;
+  text-align: right;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: white;
 }
 
-.otherRightItem {
-    position: relative; 
-    text-align: right;
-    background: white;
+.otherItems .otherRightItem {
+  position: relative;
+  text-align: right;
+  background: white;
 }
 
-.images {
-    flex: 1;
-    max-width: 100%
+.otherItems .images {
+  flex: 1;
+  max-width: 100%;
 }
 
-/*.otherItemText {
-    background-color: green;
-    height: 150px;   
-    font-weight: bold;
-    margin-right: 20px;
-}*/
-
-.ourStory {
-    text-align: center;
+.story .ourStory {
+  text-align: center;
 }
 
-.ourStoryText {
-    margin-top: 50px;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
+.story .ourStoryText {
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.ourStoryLink {
-    margin-bottom: 35px;
-    font-size: 20px;
-    color: lightblue;
+.story .ourStoryLink {
+  margin-bottom: 35px;
+  font-size: 20px;
+  color: lightblue;
 }
 
-.bottomBoxTitle {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: left;
+.boxRow .bottomBoxTitle {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
 }
 
-.bottomBoxText {
-    text-align: left;
-    font-size: 15px;
-    margin-top: 10px;
+.boxRow .bottomBoxText {
+  text-align: left;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
-.newsletterEmail {
-    
-    border-radius: 5px;
-    padding: 7px;
-    width: 100%;
-    height: 35px;
-    font-size: 12px;
-    box-shadow: 0 0 0 4px #f4f4f4;
-    margin: 4px;
-    border: 1px solid #d8d8d8;
-    margin-top: 10px;
+.boxRow .newsletterEmail {
+  border-radius: 5px;
+  padding: 7px;
+  width: 100%;
+  height: 35px;
+  font-size: 12px;
+  box-shadow: 0 0 0 4px #f4f4f4;
+  margin: 4px;
+  border: 1px solid #d8d8d8;
+  margin-top: 10px;
 }
 
-.newsletterSubscribe {
-    margin-top: 10px;
-    background: #40AEFC;
-    font-size: 15px;
-    border-radius: 3px;
-    color: white;
-    float: left;
-    height: 35px;
+.boxRow .newsletterSubscribe {
+  margin-top: 10px;
+  background: #40AEFC;
+  font-size: 15px;
+  border-radius: 3px;
+  color: white;
+  float: left;
+  height: 35px;
 }
 
-.newsletterSubscribe:hover {
-    background: blue;
+.boxRow .newsletterSubscribe:hover {
+  background: blue;
 }
 
-.socialMedia {
-    margin-top: 10px;
-    margin-right: 10px;
+.boxRow .socialMedia {
+  margin-top: 10px;
+  margin-right: 10px;
 }
-
-.footerContainer     {
-    background-color: #F4F4F4;
-}
-
-.blankFooterColumn {
-    flex: 1;
-}
-
-.footerColumnItem {
-    font-size: 15px;
-    margin-top: 5px;
-    color: gray;
-    text-align: left;
-}
-
-.footerColumnHeader {
-    font-weight: bold;
-    color: black;
-}
-
-.contactUs {
-    flex: 4;
-}
-
-.contactCard {
-    margin-top: 10px;
-    border-radius: 3px;
-    background-color: #ACB8C8;
-    color: white;
-    max-width: 100%;
-}
-
-.contactItem {
-    text-align: left;
-    font-size: 15px;
-}
-
-.wereHere {
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.contactUsButton {
-    border-radius: 3px;
-    height: 35px;
-    background-color: #40AEFC;
-    font-size: 20px;
-    color: white;
-}
-
-.contactUsButton:hover {
-    background-color: blue;
-}
-
-.copyright {
-    margin-left: 10px;
-    margin-top: 20px;
-    padding-bottom: 30px;
-    font-size: 10px;
-    }
 
 .grayDiv {
-    background-color: #F4F4F4;
+  background-color: #f4f4f4;
+}
+
+.grayDiv .footerContainer {
+  background-color: #f4f4f4;
+}
+
+.grayDiv .footerContainer .blankFooterColumn {
+  flex: 1;
+}
+
+.grayDiv .footerContainer .footerColumnItem {
+  font-size: 15px;
+  margin-top: 5px;
+  color: gray;
+  text-align: left;
+}
+
+.grayDiv .footerContainer .footerColumnHeader {
+  font-weight: bold;
+  color: black;
+}
+
+.grayDiv .footerContainer .contactUs {
+  flex: 4;
+}
+
+.grayDiv .footerContainer .contactCard {
+  margin-top: 10px;
+  border-radius: 3px;
+  background-color: #ACB8C8;
+  color: white;
+  max-width: 100%;
+}
+
+.grayDiv .footerContainer .contactItem {
+  text-align: left;
+  font-size: 15px;
+}
+
+.grayDiv .footerContainer .wereHere {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.grayDiv .footerContainer .contactUsButton {
+  border-radius: 3px;
+  height: 35px;
+  background-color: #40AEFC;
+  font-size: 20px;
+  color: white;
+}
+
+.grayDiv .footerContainer .contactUsButton:hover {
+  background-color: blue;
+}
+
+.grayDiv .footerContainer .copyright {
+  margin-left: 10px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  font-size: 10px;
 }

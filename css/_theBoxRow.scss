@@ -1,0 +1,45 @@
+.boxRow {
+.bottomBoxTitle {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+.bottomBoxText {
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.newsletterEmail {
+    
+    border-radius: 5px;
+    padding: 7px;
+    width: 100%;
+    height: 35px;
+    font-size: 12px;
+    box-shadow: 0 0 0 4px $backgroundGray;
+    margin: 4px;
+    border: 1px solid $boxBorderGray;
+    margin-top: 10px;
+}
+
+.newsletterSubscribe {
+    margin-top: 10px;
+    background: $buttonBlue;
+    font-size: 15px;
+    border-radius: 3px;
+    color: $whiteColor;
+    float: left;
+    height: 35px;
+}
+
+.newsletterSubscribe:hover {
+    background: $buttonHover;
+}
+
+.socialMedia {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+}

@@ -1,15 +1,13 @@
 {
-  "name": "d1example",
+  "name": "d1-gulp-and-css",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {},
   "license": "MIT",
-  
   "scripts": {
     "start": "serve -p 8080",
     "gulp": "gulp serve"
   },
-
   "dependencies": {
     "browser-sync": "^2.18.7",
     "gulp": "^3.9.1",

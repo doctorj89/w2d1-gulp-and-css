@@ -1,0 +1,48 @@
+.otherItems {
+    margin-top: 50px;
+
+    .otherItem {
+    position: relative;
+}
+
+h2 { 
+   position: absolute; 
+   top: 0px;
+   padding-right: 20px;
+   width: 100%; 
+   color: $blackColor;
+}
+
+.otherItemsBar:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: $lightGrayColor;
+}
+
+.otherLeftItem {
+    position: relative; 
+    text-align: right;
+    background: $whiteColor;
+    background-color: $whitecolor;  
+}
+
+.otherMiddleItem {
+    position: relative; 
+    text-align: right;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: $whiteColor;
+}
+
+.otherRightItem {
+    position: relative; 
+    text-align: right;
+    background: $whiteColor;
+}
+
+.images {
+    flex: 1;
+    max-width: 100%
+}
+
+}
