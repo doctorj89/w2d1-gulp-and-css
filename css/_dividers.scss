@@ -5,9 +5,9 @@
 }
 
 .perforatedDivider {
-    background:url(../img/perforated-bottom@2x.png);
+    background:url($perforatedDividerImage);
 }
 
 .xDivider {
-        background:url(../img/hatch-light@2x.png);
+        background:url($xDividerImage);
 }

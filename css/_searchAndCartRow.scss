@@ -1,7 +1,7 @@
 .searchAndCartRow {
 
 .search {
-        background: url(../img/search.png) no-repeat scroll 7px 7px;
+        background: url($searchImage) no-repeat scroll 7px 7px;
         padding-left:30px;
         margin-top: 10px;
         border-radius: 5px;
@@ -14,7 +14,7 @@
     }
 
     .cartRow {
-        background: url(../img/cart20.png) no-repeat scroll 5px 5px;
+        background: url($cartImage) no-repeat scroll 5px 5px;
     }
 
 }
